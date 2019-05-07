@@ -1,0 +1,117 @@
+body, html {
+    width: 100%;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+}
+
+.navbar-toggler {
+    background: none;
+    border: none;
+}
+
+.navbar-toggler:active,
+.navbar-toggler:focus {
+    outline: 0;
+}
+
+.navbar-toggler .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    margin: 4px 0 4px 0;
+    transition: all 0.2s;
+}
+
+.navbar-dark .navbar-toggler .icon-bar {
+    background: #ffffff;
+}
+
+.navbar-toggler .icon-bar:nth-of-type(1) {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+}
+
+.navbar-toggler .icon-bar:nth-of-type(2) {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.navbar-toggler .icon-bar:nth-of-type(3) {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+}
+
+.navbar-toggler.collapsed .icon-bar:nth-of-type(1) {
+    transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .icon-bar:nth-of-type(2) {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .icon-bar:nth-of-type(3) {
+    transform: rotate(0);
+}
+
+.view {
+    height: 100vh;
+}
+
+.img1, .img2, .img3, .img4, .img5 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+
+.img1 {
+     background-image: url("../images/alexander-andrews.jpg");
+     min-height: 100%;
+ }
+
+.img2 {
+    background-image: url("../images/keila-hotzel-227543-unsplash.jpg");
+    min-height: 400px;
+}
+
+.img3 {
+    background-image: url("../images/brooke-lark-537698-unsplash.jpg");
+    min-height: 400px;
+}
+
+.img4 {
+    background-image: url("../images/brooke-lark-209712-unsplash.jpg");
+    min-height: 400px;
+}
+
+.img5 {
+    background-image: url("../images/mike-dorner-173502-unsplash.jpg");
+    min-height: 400px;
+}
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.border {
+    padding: 20px;
+}
